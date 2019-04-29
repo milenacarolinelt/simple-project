@@ -1,0 +1,16 @@
+.main-header {
+  background: $_blue-color;
+  color: $_white-color;
+  padding: 1em 0;
+
+  h1 {
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    font-weight: $_font-weight-light;
+    font-size: 24px;
+
+    @media screen and (max-width: 910px) {
+      font-size: 20px;
+    }
+  }
+}

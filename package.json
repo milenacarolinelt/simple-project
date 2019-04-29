@@ -1,0 +1,60 @@
+{
+  "name": "simple-project",
+  "version": "0.0.1",
+  "description": "Simple Project",
+  "main": "main.js",
+  "scripts": {
+    "dev": "gulp && gulp watch",
+    "build": "gulp --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milena Caroline <milena.carolinelt@hotmail.com>",
+  "license": "MIT",
+  "eslintConfig": {
+    "globals": {
+      "window": true
+    }
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "glob": "^7.0.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.0.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "merge-stream": "^1.0.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^2.2.0",
+    "lodash": "^4.15.0",
+    "swiper": "^4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skyllaion/simple-project.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Skyllaion/simple-project/issues"
+  },
+  "homepage": "https://github.com/Skyllaion/simple-project#readme"
+}

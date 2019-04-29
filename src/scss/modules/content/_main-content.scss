@@ -1,0 +1,103 @@
+.main-content {
+  &__banner {
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-height: 350px;
+      overflow: hidden;
+    }
+  }
+
+  &__container {
+    padding: 24px 16px;
+    margin: auto;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  &__error {
+    padding: 10px 5px 0;
+    font-size: 13px;
+    color: $_red-color;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 250ms ease-in-out;
+
+    &.is--active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &__input {
+    width: 50%;
+    border: 1px solid $_gray-color;
+    padding: 10px 35px 10px 10px;
+    border-radius: 5px;
+    font-family: "Barlow", sans-serif;
+
+    @media screen and (max-width: 910px) {
+      width: 100%;
+    }
+  }
+
+  &__submit {
+    background-color: transparent;
+    background-image: url("/assets/img/search-icon.png");
+    background-repeat: no-repeat;
+    background-position: 2px;
+    background-size: 16px 16px;
+    font-size: 0;
+    width: 30px;
+    height: 37px;
+    position: absolute;
+    right: 0;
+  }
+
+  &__form-result {
+    margin: 10px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__label-result {
+    text-align: left;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 600;
+    color: $_black-color;
+
+    @media screen and (max-width: 910px) {
+      width: 100%;
+    }
+  }
+
+  &__input-result {
+    width: 50%;
+    border-bottom: 1px solid $_gray-color;
+    padding: 7px 0 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: $_gray-color;
+    font-family: "Barlow", sans-serif;
+
+    @media screen and (max-width: 910px) {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+body {
+  font-family: $_font-family-base;
+  font-size: $_font-size-base;
+  font-weight: $_font-weight-base;
+  background-color: $_white-color;
+  color: $_black-color;
+  line-height: 1.2;
+}
+
+@import "./header/_main-header.scss";
+@import "./content/_main-content.scss";
+@import "./footer/_main-footer.scss";

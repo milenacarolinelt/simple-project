@@ -1,0 +1,33 @@
+div(class="main-content")
+  div(class="main-content__banner")
+    div(class="swiper-container")
+      div(class="swiper-button-prev")
+      div(class="swiper-button-next")
+      div(class="swiper-wrapper")
+        div(class="swiper-slide")
+          img(alt="slide-1" src="/assets/img/search-image-1.jpg")
+        div(class="swiper-slide")
+          img(alt="slide-2" src="/assets/img/search-image-2.jpg")
+        div(class="swiper-slide")
+          img(alt="slide-3" src="/assets/img/search-image-3.jpg")
+        div(class="swiper-slide")
+          img(alt="slide-4" src="/assets/img/search-image-4.jpg")
+      div(class="swiper-pagination")
+  div(class="main-content__container")
+    form(class="main-content__form js-form")
+      input(type="text", class="main-content__input js-search" placeholder="00000-000" maxlength="9")
+      input(type="submit", class="main-content__submit js-submit")
+    p(class="main-content__error js-error") CEP inválido
+
+    form(class="main-content__form-result js-form-result")
+      label(for="input-address" class="main-content__label-result") Endereço
+      input(type="text", class="main-content__input-result js-address" name="input-address" readonly)
+
+      label(for="input-address" class="main-content__label-result") Bairro
+      input(type="text", class="main-content__input-result js-neighborhood" name="input-neighborhood" readonly)
+
+      label(for="input-state" class="main-content__label-result") Estado
+      input(type="text", class="main-content__input-result js-state" name="input-state" readonly)
+
+      label(for="input-city" class="main-content__label-result") Cidade
+      input(type="text", class="main-content__input-result js-city" name="input-city" readonly)
