@@ -36,6 +36,12 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 250ms ease-in-out;
+    width: 50%;
+    margin: auto;
+
+    @media screen and (max-width: 910px) {
+      width: 100%;
+    }
 
     &.is--active {
       opacity: 1;
