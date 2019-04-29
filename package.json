@@ -43,9 +43,6 @@
     "yargs": "^5.0.0"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "jquery": "^2.2.0",
-    "lodash": "^4.15.0",
     "swiper": "^4.5.0"
   },
   "repository": {
